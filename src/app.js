@@ -26,19 +26,19 @@ class App extends React.Component
     contentTabs = {
         'About':
         {
-            title: 'Background & Experience',
+            title: "I'm Alex Collings, Welcome to my Portfolio",
             description: "I was initially interested in physics during my University years, but later swapped to a more software centric program at St. Lawrence College. I've become a Full-Stack Web Developer since then, working in the financial tech industry, although I'm always looking for new opportunities to improve my skills.",
             centerPiece: <img id="aboutImage" src={myPicture} alt="Me" />
         },
         'Web Development':
         {
-            title: 'Data Management & Display',
+            title: 'Proficient with Data Management & Display',
             description: "While working in finance, I designed and built from the ground up a Customer Relationship Manager using ReactJS and ExpressJS. ",
             centerPiece: <img id="webdevImage" src={crmPicture} alt=""/>
         },
         'Game Development':
         {
-            title: 'Experience with Linear Algebra and Calculus',
+            title: 'Experienced in Game Physics',
             description: "Through several university level linear algebra and calculus courses, as well as experience with the application of Vectors, Matrices, and Quaternions in Unity, I have a good understanding of video game physics.",
             centerPiece: <img id="gamedevImage" src={gamedevPicture} alt=""/>
         },
@@ -54,9 +54,9 @@ class App extends React.Component
             description: "If you have any questions or would like to commission a website or other project, please email me using the link above.",
             centerPiece:
                 <div id="contactLinks" >
-                    <img class='contactLink' src={githubIcon} style={{height: "3rem", width: "3rem"}} onClick={() => { window.open('https://github.com/AGCollings', '_blank').focus() }} />
-                    <img class='contactLink' src={linkedInIcon} style={{height: "3rem", width: "3rem"}} onClick={() => { window.open('https://www.linkedin.com/in/alexander-collings-635b16192/', '_blank').focus() }} />
-                    <img class='contactLink' src={mailIcon} style={{height: "3rem", width: "3rem"}} onClick={() => { window.open('mailto:alexgcollings@gmail.com', '_blank').focus() }} />
+                    <img id='githubLink' class="contactLink" src={githubIcon} alt="Github Link" style={{height: "3rem", width: "3rem"}} onClick={() => { window.open('https://github.com/AGCollings', '_blank').focus() }} />
+                    <img id='linkedinLink' class="contactLink" src={linkedInIcon} alt="LinkedIn Link" style={{height: "3rem", width: "3rem"}} onClick={() => { window.open('https://www.linkedin.com/in/alexander-collings-635b16192/', '_blank').focus() }} />
+                    <img id='emailLink' class="contactLink" src={mailIcon} alt="Email Link" style={{height: "3rem", width: "3rem"}} onClick={() => { window.open('mailto:alexgcollings@gmail.com', '_blank').focus() }} />
                 </div>
         }
     }

@@ -83,3 +83,8 @@
 {
     cursor: pointer;
 }
+
+#linkedinLink
+{
+    min-width: 3.5rem;
+}
