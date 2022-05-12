@@ -1,0 +1,17 @@
+#sidebar
+{
+    box-sizing: border-box;
+
+    grid-row: 2;
+    grid-column: 1;
+
+    height: 100%;
+    width: 100%;
+
+    padding-left: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+}

@@ -1,0 +1,9 @@
+#app
+{
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 21rem auto;
+    grid-template-rows: 15% auto 15%;
+}

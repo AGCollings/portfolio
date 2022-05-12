@@ -1,0 +1,9 @@
+# Libraries
+node_modules
+*.lock
+
+# Logging
+*.log
+
+# Config
+.env
