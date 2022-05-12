@@ -8,7 +8,7 @@ class Sidebar extends React.Component
     render = () =>
     {
         return (
-            <div id="sidebar">
+            <div id='sidebar'>
                 {
                     this.props.tabs.map((value) =>
                     {

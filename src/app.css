@@ -4,6 +4,6 @@
     width: 100%;
 
     display: grid;
-    grid-template-columns: 21rem auto;
+    grid-template-columns: 27rem auto;
     grid-template-rows: 15% auto 15%;
 }

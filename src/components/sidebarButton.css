@@ -1,18 +1,20 @@
 #sidebarButton
 {
+    height: 3rem;
     padding-left: 1rem;
     color: whitesmoke;
     transition: all 0.25s;
     cursor: pointer;
     user-select: none;
-    font-size: larger;
+    font-size: 1.5rem;
     font-style: bold;
 }
 
 #sidebarButtonActive
 {
+    height: 3rem;
     padding-left: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: whitesmoke;
     transition: all 0.25s;
     cursor: pointer;
@@ -23,5 +25,5 @@
 
 #sidebarButton:hover
 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }

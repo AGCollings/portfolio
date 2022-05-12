@@ -9,7 +9,9 @@ body
     padding: none;
     margin: none;
     display: block;
+
     height: 100vh;
     width: 100vw;
+
     background: linear-gradient(240deg, rgba(40,23,68,1) 0%, rgba(89,52,150,1) 50%, rgba(115,95,149,1) 73%, rgba(188,172,215,1) 99%);
 }

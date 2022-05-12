@@ -1,0 +1,85 @@
+#contentDisplay
+{
+    grid-row: 1 / 4;
+    grid-column: 2;
+
+    max-width: 100%;
+    max-height: 100%;
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title
+{
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+#description
+{
+    padding: 2rem;
+
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+#aboutImage
+{
+    max-height: 60vh;
+    max-width: 70vw;
+
+    height: 70%;
+    width: 30%;
+    border-radius: 10px;
+}
+
+#webdevImage
+{
+    max-height: 60vh;
+    max-width: 70vw;
+
+    height: 70%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+#gamedevImage
+{
+    max-height: 60vh;
+    max-width: 70vw;
+
+    border-radius: 10px;
+}
+
+#modellingAndAnimationImage
+{
+    max-height: 60vh;
+    max-width: 70vw;
+
+    border-radius: 10px;
+}
+
+#contactLinks
+{
+    max-height: 60vh;
+    max-width: 70vw;
+
+    min-width: 15vw;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contactLink
+{
+    cursor: pointer;
+}

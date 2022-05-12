@@ -6,11 +6,11 @@ class SidebarButton extends React.Component
 {
     render = () =>
     {
-        let id = "sidebarButton"
+        let id = 'sidebarButton'
 
         if (this.props.selected)
         {
-            id = "sidebarButtonActive"
+            id = 'sidebarButtonActive'
         }
 
         return (
